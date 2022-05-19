@@ -92,7 +92,7 @@
                     <connections>
                         <outlet property="cityLabel" destination="QXN-qP-otC" id="AbN-hb-2GL"/>
                         <outlet property="feelsLikeTemperatureLabel" destination="2cA-Qa-J2o" id="f3e-pd-JHh"/>
-                        <outlet property="temperatureLaber" destination="bRE-XB-Aax" id="fdr-qc-OUD"/>
+                        <outlet property="temperatureLabel" destination="bRE-XB-Aax" id="M6r-ZF-zzh"/>
                         <outlet property="weatherIconImageView" destination="rNM-7J-Sog" id="th2-R9-wPo"/>
                     </connections>
                 </viewController>

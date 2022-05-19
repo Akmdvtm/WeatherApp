@@ -16,6 +16,7 @@
 		F51FBCD02835FCFD00624CD0 /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FBCCF2835FCFD00624CD0 /* NetworkWeatherManager.swift */; };
 		F51FBCD2283602E000624CD0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FBCD1283602E000624CD0 /* Constants.swift */; };
 		F51FBCD42836055900624CD0 /* CurrentWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FBCD32836055900624CD0 /* CurrentWeatherData.swift */; };
+		F51FBCD628360B5100624CD0 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FBCD528360B5100624CD0 /* CurrentWeather.swift */; };
 		F5B2370E281A651400E35E29 /* ViewController + alertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2370D281A651400E35E29 /* ViewController + alertController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		F51FBCCF2835FCFD00624CD0 /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
 		F51FBCD1283602E000624CD0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F51FBCD32836055900624CD0 /* CurrentWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
+		F51FBCD528360B5100624CD0 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		F5B2370D281A651400E35E29 /* ViewController + alertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + alertController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +66,6 @@
 		F504FF8A281A534800C5184C /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				F51FBCCC2835F9EE00624CD0 /* Services */,
 				F504FFA3281A53CA00C5184C /* Extensions */,
 				F504FFA2281A53C200C5184C /* Models */,
 				F504FFA1281A53B000C5184C /* View Controllers */,
@@ -108,6 +109,7 @@
 			children = (
 				F51FBCCF2835FCFD00624CD0 /* NetworkWeatherManager.swift */,
 				F51FBCD32836055900624CD0 /* CurrentWeatherData.swift */,
+				F51FBCD528360B5100624CD0 /* CurrentWeather.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -118,13 +120,6 @@
 				F5B2370D281A651400E35E29 /* ViewController + alertController.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		F51FBCCC2835F9EE00624CD0 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +195,7 @@
 			files = (
 				F51FBCD02835FCFD00624CD0 /* NetworkWeatherManager.swift in Sources */,
 				F504FF90281A534800C5184C /* ViewController.swift in Sources */,
+				F51FBCD628360B5100624CD0 /* CurrentWeather.swift in Sources */,
 				F504FF8C281A534800C5184C /* AppDelegate.swift in Sources */,
 				F504FF8E281A534800C5184C /* SceneDelegate.swift in Sources */,
 				F5B2370E281A651400E35E29 /* ViewController + alertController.swift in Sources */,
