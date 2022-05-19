@@ -15,6 +15,7 @@
 		F504FF98281A534800C5184C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F504FF96281A534800C5184C /* LaunchScreen.storyboard */; };
 		F51FBCD02835FCFD00624CD0 /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FBCCF2835FCFD00624CD0 /* NetworkWeatherManager.swift */; };
 		F51FBCD2283602E000624CD0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FBCD1283602E000624CD0 /* Constants.swift */; };
+		F51FBCD42836055900624CD0 /* CurrentWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FBCD32836055900624CD0 /* CurrentWeatherData.swift */; };
 		F5B2370E281A651400E35E29 /* ViewController + alertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2370D281A651400E35E29 /* ViewController + alertController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		F504FF99281A534800C5184C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F51FBCCF2835FCFD00624CD0 /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
 		F51FBCD1283602E000624CD0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F51FBCD32836055900624CD0 /* CurrentWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
 		F5B2370D281A651400E35E29 /* ViewController + alertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + alertController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				F51FBCCF2835FCFD00624CD0 /* NetworkWeatherManager.swift */,
+				F51FBCD32836055900624CD0 /* CurrentWeatherData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				F504FF8C281A534800C5184C /* AppDelegate.swift in Sources */,
 				F504FF8E281A534800C5184C /* SceneDelegate.swift in Sources */,
 				F5B2370E281A651400E35E29 /* ViewController + alertController.swift in Sources */,
+				F51FBCD42836055900624CD0 /* CurrentWeatherData.swift in Sources */,
 				F51FBCD2283602E000624CD0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
