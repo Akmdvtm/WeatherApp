@@ -1,5 +1,5 @@
 //
-//  URLSessionModel.swift
+//  NetworkWeatherManager.swift
 //  WeatherApp
 //
 //  Created by Тамерлан Ахмедов on 19.05.2022.
@@ -7,7 +7,19 @@
 
 import Foundation
 
-
+struct NetworkWeatherManager{
+    func fetchCurrentWeather(forCity city: String) {
+        let urlString = "https://api.openweathermap.org/data/2.5/weather?q=\(city)&apikey=\(apiKey)"
+        let url = URL(string: urlString)
+        let session = URLSession(configuration: .default)
+        session.dataTask(with: url!) { data, response, error in
+            if let data = data {
+                let dataString = String(data: data, encoding: .utf8)
+                print(dataString!)
+            }
+        }.resume()
+    }
+}
 // MARK: - Weather
 struct Weather: Codable {
     let coord: Coord
